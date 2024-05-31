@@ -1,0 +1,3 @@
+main method provides callable environment to call pre-defined and user-defined methods
+jdk 1.7 requires you to compulsorily create the main method
+it is possible to overload main method
