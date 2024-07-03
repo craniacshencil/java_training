@@ -14,11 +14,11 @@ public class arrayThread extends Thread {
       try {
         this.sleep(2000);
       } catch (Exception E) {
-
       }
       if (this.changeMade) {
-        this.changeMade = false;
         Collections.sort(arr, Collections.reverseOrder());
+        System.out.println(this.arr);
+        this.changeMade = false;
       }
     }
   }
